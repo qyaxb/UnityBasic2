@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a5a6cd738645369231540dd8f9631f, type: 3}
+  m_Name: Shield_2
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: -641897536, guid: 7698f902a8e73cb4b88c4738f7fb0ff5,
+    type: 3}
+  <Name>k__BackingField: Wooden Shield
+  <Description>k__BackingField: Just a shield made of wood
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 1baa3682ee132644cbd959c267628da5,
+    type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 1263952740535762944
+  - rid: 1263952740535762945
+  - rid: 1263952740535762946
+  - rid: 1263952740535762947
+  - rid: 1263952977246814208
+  - rid: 5082901806419542016
+  - rid: 5082902107917385728
+  references:
+    version: 2
+    RefIds:
+    - rid: 1263952740535762944
+      type: {class: WeaponSpriteData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: -1048036714, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 1565793815, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -1484040435, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -1720796325, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 273292081, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -925444439, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: -429040762, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 415074057, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 1071959021, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -111214336, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+          - <Phase>k__BackingField: 3
+            <Sprites>k__BackingField:
+            - {fileID: -486079054, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 932276872, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -1511961161, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -74527363, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -6096497897028323266, guid: 0a54b12d964217349929807f3ea6fb60, type: 3}
+          - <Phase>k__BackingField: 4
+            <Sprites>k__BackingField:
+            - {fileID: -1947108724, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -1290754227, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 1216963456, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -988856200, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -6096497897028323266, guid: 0a54b12d964217349929807f3ea6fb60, type: 3}
+          - <Phase>k__BackingField: 5
+            <Sprites>k__BackingField:
+            - {fileID: -2026350669, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -1336301572, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: 1319187721, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+            - {fileID: -428189951, guid: f6f10e6e84266ef4e8db20cde452957a, type: 3}
+    - rid: 1263952740535762945
+      type: {class: InputHoldData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 1263952740535762946
+      type: {class: BlockData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: BlockData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <BlockDirectionInformation>k__BackingField:
+          - MinAngle: -90
+            MaxAngle: 90
+            DamageAbsorption: 0.75
+            KnockBackAbsorption: 0.5
+            PoiseDamageAbsorption: 0.75
+          <BlockWindowStart>k__BackingField:
+            <Duration>k__BackingField: 0.2666667
+            <Phase>k__BackingField: 0
+          <BlockWindowEnd>k__BackingField:
+            <Duration>k__BackingField: 0
+            <Phase>k__BackingField: 3
+          <Particles>k__BackingField: {fileID: 6240072112886026631, guid: 25aeb624df7917e4aa9cbe2204b85ed6,
+            type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0.75, y: -0.25}
+    - rid: 1263952740535762947
+      type: {class: MovementData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 1263952977246814208
+      type: {class: ParryData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ParryData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <ParryDirectionalInformation>k__BackingField:
+          - MinAngle: -90
+            MaxAngle: 90
+            DamageAbsorption: 1
+            KnockBackAbsorption: 0.85
+            PoiseDamageAbsorption: 1
+          <ParryWindowStart>k__BackingField:
+            <Duration>k__BackingField: 0
+            <Phase>k__BackingField: 0
+          <ParryWindowEnd>k__BackingField:
+            <Duration>k__BackingField: 0.25
+            <Phase>k__BackingField: 0
+          <Particles>k__BackingField: {fileID: 6240072112886026631, guid: 25aeb624df7917e4aa9cbe2204b85ed6,
+            type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0.75, y: -0.25}
+    - rid: 5082901806419542016
+      type: {class: KnockBackOnParryData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackOnParryData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 10
+    - rid: 5082902107917385728
+      type: {class: DamageOnParryData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageOnParryData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 20
