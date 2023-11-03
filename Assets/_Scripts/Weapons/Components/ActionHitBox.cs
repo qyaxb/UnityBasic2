@@ -21,7 +21,7 @@ namespace Bardent.Weapons.Components
                 transform.position.y + currentAttackData.HitBox.center.y
             );
 
-            detected = Physics2D.OverlapBoxAll(offset, currentAttackData.HitBox.size, 0f, data.DetectableLayers);
+            detected = Physics2D.OverlapBoxAll(offset, currentAttackData.HitBox.size, 0.2f, data.DetectableLayers);
 
             if (detected.Length == 0)
                 return;

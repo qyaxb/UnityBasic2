@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37a5a6cd738645369231540dd8f9631f, type: 3}
   m_Name: Sword_1
   m_EditorClassIdentifier: 
-  <Icon>k__BackingField: {fileID: 264998466, guid: 7698f902a8e73cb4b88c4738f7fb0ff5,
+  <Icon>k__BackingField: {fileID: 82090474, guid: 5a7b28b0cd4d2b944813191b0df57d2c,
     type: 3}
-  <Name>k__BackingField: Bardent's Sword
-  <Description>k__BackingField: It looks sick af
+  <Name>k__BackingField: Ligma_Sword
+  <Description>k__BackingField: "Ng\u1EA7u vkl"
   <AnimatorController>k__BackingField: {fileID: 9100000, guid: 95b2394cafcd7ac4eb455b8d8735c661,
     type: 2}
   <NumberOfAttacks>k__BackingField: 3
@@ -126,26 +126,26 @@ MonoBehaviour:
           <PhaseSprites>k__BackingField:
           - <Phase>k__BackingField: 2
             <Sprites>k__BackingField:
-            - {fileID: -615029134, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: -563782345, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 1615464255, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 2087356323, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 1604219749, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
+            - {fileID: -1762045133, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 1676277553, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 1372386536, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 905176171, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: -2018874876, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
         - name: Attack 2
           <PhaseSprites>k__BackingField:
           - <Phase>k__BackingField: 2
             <Sprites>k__BackingField:
-            - {fileID: -597028819, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 837426940, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: -2078440448, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 1874299564, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: -745694471, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
+            - {fileID: -213548166, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: -328713555, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: -1227303441, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: -201336156, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 1157432299, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
         - name: Attack 3
           <PhaseSprites>k__BackingField:
           - <Phase>k__BackingField: 2
             <Sprites>k__BackingField:
-            - {fileID: -1364795563, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: -144115154, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 1970512204, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: 957161494, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
-            - {fileID: -569729570, guid: 77e6bd86595ef054eac5e669fa115fb1, type: 3}
+            - {fileID: 1255180777, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 1648344662, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 862202135, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: -960524087, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
+            - {fileID: 1248932609, guid: 499700b8236cf4a4eb61f50cff64f6a0, type: 3}
