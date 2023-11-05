@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a5a6cd738645369231540dd8f9631f, type: 3}
+  m_Name: Hand_gun
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 223244121, guid: 5a7b28b0cd4d2b944813191b0df57d2c,
+    type: 3}
+  <Name>k__BackingField: Hand_gun
+  <Description>k__BackingField: An engimagic weapon
+  <AnimatorController>k__BackingField: {fileID: 0}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 6060935901317169155
+  - rid: 6060935901317169156
+  - rid: 6060935901317169157
+  references:
+    version: 2
+    RefIds:
+    - rid: 6060935901317169155
+      type: {class: ProjectileSpawnerData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 0.3, y: 0}
+            <Direction>k__BackingField: {x: 0, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 0}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 0
+            <KnockBackData>k__BackingField:
+              Strength: 0
+              Angle: {x: 0, y: 0}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 0
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 0}
+    - rid: 6060935901317169156
+      type: {class: WeaponSpriteData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField: []
+    - rid: 6060935901317169157
+      type: {class: TargeterToProjectileData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: TargeterToProjectileData
