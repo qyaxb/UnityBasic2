@@ -7,12 +7,12 @@ namespace Bardent.Weapons.Components
 {
     public class WeaponSprite : WeaponComponent<WeaponSpriteData, AttackSprites>
     {
-        private SpriteRenderer baseSpriteRenderer;
-        private SpriteRenderer weaponSpriteRenderer;
+        public SpriteRenderer baseSpriteRenderer;
+        public SpriteRenderer weaponSpriteRenderer;
         
-        private int currentWeaponSpriteIndex;
+        public int currentWeaponSpriteIndex;
 
-        private Sprite[] currentPhaseSprites;
+        public Sprite[] currentPhaseSprites;
 
         protected override void HandleEnter()
         {

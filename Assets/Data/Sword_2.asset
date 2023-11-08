@@ -25,7 +25,7 @@ MonoBehaviour:
   - rid: 4372345045472247810
   - rid: 3124257199506325505
   - rid: 2516071312619208705
-  - rid: 2516071382426845185
+  - rid: 6060935918261633026
   references:
     version: 2
     RefIds:
@@ -41,16 +41,6 @@ MonoBehaviour:
         - name: Attack 2
           <Angle>k__BackingField: {x: 1, y: 1}
           <Strength>k__BackingField: 15
-    - rid: 2516071382426845185
-      type: {class: PoiseDamageData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
-      data:
-        name: PoiseDamageData
-        repeatData: 0
-        attackData:
-        - name: Attack 1
-          <Amount>k__BackingField: 20
-        - name: Attack 2
-          <Amount>k__BackingField: 20
     - rid: 3124257199506325505
       type: {class: DamageOnHitBoxActionData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
       data:
@@ -122,3 +112,13 @@ MonoBehaviour:
             - {fileID: 1645220379, guid: 3f6ae8b3fa4b36e48b63b3edc225fda0, type: 3}
             - {fileID: -837185620, guid: 3f6ae8b3fa4b36e48b63b3edc225fda0, type: 3}
             - {fileID: 1231312736, guid: 3f6ae8b3fa4b36e48b63b3edc225fda0, type: 3}
+    - rid: 6060935918261633026
+      type: {class: ProjectileSpawnerData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField: []
+        - name: Attack 2
+          <SpawnInfos>k__BackingField: []

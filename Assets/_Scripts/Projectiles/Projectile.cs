@@ -26,7 +26,7 @@ namespace Bardent.Projectiles
         private LayerMask whatIsPlayer;
         [SerializeField]
         private Transform damagePosition;
-
+        public float time = 10;
         private void Start()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -51,6 +51,12 @@ namespace Bardent.Projectiles
                     transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
                 }
             }
+            time -= Time.deltaTime;
+            if(time == 0)
+            {
+                Object.Destroy(rb);
+            }
+
         }
 
         private void FixedUpdate()

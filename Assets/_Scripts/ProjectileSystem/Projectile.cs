@@ -17,6 +17,7 @@ namespace Bardent.ProjectileSystem
 
         public Rigidbody2D Rigidbody2D { get; private set; }
 
+        public float time = 5;
         public void Init()
         {
             OnInit?.Invoke();
@@ -27,6 +28,15 @@ namespace Bardent.ProjectileSystem
             OnReset?.Invoke();
         }
 
+        public void Update()
+        {
+            time -= Time.deltaTime;
+            if (time < 0)
+            {
+                gameObject.SetActive(false);
+                
+            }
+        }
         /* This function is called before Init from the weapon. Any weapon component can use this to function to pass along information that the projectile might need that is
         weapon specific, such as: damage amount, draw length modifiers, etc. */        
         public void SendDataPackage(ProjectileDataPackage dataPackage)
