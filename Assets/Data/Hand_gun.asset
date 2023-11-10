@@ -23,6 +23,7 @@ MonoBehaviour:
   - rid: 6060935901317169155
   - rid: 6060935901317169156
   - rid: 6060935918261633027
+  - rid: 6060935988834729984
   references:
     version: 2
     RefIds:
@@ -72,3 +73,14 @@ MonoBehaviour:
         - name: Attack 1
           <Direction>k__BackingField: {x: 0, y: 0}
           <Velocity>k__BackingField: 0
+    - rid: 6060935988834729984
+      type: {class: AttackSoundData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: AttackSoundData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <phaseSound>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <AudioClip>k__BackingField:
+            - {fileID: 8300000, guid: 5042c2c1861c9d74e8671a90848d6c45, type: 3}

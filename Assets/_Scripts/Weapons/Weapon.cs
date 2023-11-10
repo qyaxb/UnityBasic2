@@ -71,7 +71,7 @@ namespace Bardent.Weapons
 
         public void Enter()
         {
-            // Debug.Break();
+            
             print($"{transform.name} enter");
 
             AttackStartTime = Time.time;
@@ -82,6 +82,7 @@ namespace Bardent.Weapons
             Anim.SetInteger("counter", currentAttackCounter);
 
             OnEnter?.Invoke();
+            //Debug.Break();
         }
 
         public void SetCore(Core core)

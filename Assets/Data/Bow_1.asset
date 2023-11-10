@@ -115,7 +115,7 @@ MonoBehaviour:
             <ProjectilePrefab>k__BackingField: {fileID: 1775009464070235410, guid: 8efb570eb9ce57045beb8be00e677b2b,
               type: 3}
             <DamageData>k__BackingField:
-              <Amount>k__BackingField: 15
+              <Amount>k__BackingField: 100
             <KnockBackData>k__BackingField:
               Strength: 10
               Angle: {x: 1, y: 1}

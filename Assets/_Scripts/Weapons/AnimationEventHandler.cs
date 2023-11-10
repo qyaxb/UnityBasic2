@@ -26,7 +26,7 @@ namespace Bardent.Weapons
 
         public event Action<AttackPhases> OnEnterAttackPhase;
 
-        public event Action<AttackSound> OnEnterSound;
+        
         
         /*
          * Animations events used to indicate when a specific time window starts and stops in an animation. These windows are identified using the
@@ -35,11 +35,7 @@ namespace Bardent.Weapons
         public event Action<AnimationWindows> OnStartAnimationWindow;
         public event Action<AnimationWindows> OnStopAnimationWindow;
 
-        private void soundStart()
-        {
-            AudioSource audioSource = GameObject.Find("AudioSource").GetComponent<AudioSource>();
-            audioSource.Play();
-        }
+        
         private void AnimationFinishedTrigger() => OnFinish?.Invoke();
         private void StartMovementTrigger() => OnStartMovement?.Invoke();
         private void StopMovementTrigger() => OnStopMovement?.Invoke();

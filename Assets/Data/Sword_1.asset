@@ -75,7 +75,7 @@ MonoBehaviour:
         - name: Attack 3
           <Amount>k__BackingField: 6
         - name: Attack 3
-          <Amount>k__BackingField: 10
+          <Amount>k__BackingField: 4
     - rid: 4372344435206258688
       type: {class: MovementData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
       data:
@@ -125,13 +125,13 @@ MonoBehaviour:
             width: 2.05
             height: 2.51
         - name: Attack 3
-          Debug: 0
+          Debug: 1
           <HitBox>k__BackingField:
             serializedVersion: 2
             x: 0.1
             y: -0.9
-            width: 6
-            height: 4
+            width: 3.5
+            height: 0.2
         <DetectableLayers>k__BackingField:
           serializedVersion: 2
           m_Bits: 512

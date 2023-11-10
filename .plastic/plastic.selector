@@ -1,4 +1,4 @@
 repository "Game Project@ProjectIIRC@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"   
+     
