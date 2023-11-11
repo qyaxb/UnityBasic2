@@ -14,7 +14,7 @@ namespace Bardent.ProjectileSystem.Components
     {
         public UnityEvent<IDamageable> OnDamage;
         public UnityEvent<RaycastHit2D> OnRaycastHit;
-
+        private AudioSource source;
         [field: SerializeField] public LayerMask LayerMask { get; private set; }
         [field: SerializeField] public bool SetInactiveAfterDamage { get; private set; }
         [field: SerializeField] public float Cooldown { get; private set; }
@@ -34,6 +34,7 @@ namespace Bardent.ProjectileSystem.Components
 
         private void HandleRaycastHit2D(RaycastHit2D[] hits)
         {
+
             if (!Active)
                 return;
 
@@ -49,7 +50,7 @@ namespace Bardent.ProjectileSystem.Components
                 // NOTE: We need to use .collider.transform instead of just .transform to get the GameObject the collider we detected is attached to, otherwise it returns the parent
                 if (!hit.collider.transform.gameObject.TryGetComponent(out IDamageable damageable))
                     continue;
-                
+                source.PlayOneShot(source.clip);
                 damageable.Damage(new DamageData(amount, projectile.gameObject));
                 
                 OnDamage?.Invoke(damageable);
@@ -82,6 +83,8 @@ namespace Bardent.ProjectileSystem.Components
         protected override void Awake()
         {
             base.Awake();
+
+            source = GameObject.FindWithTag("SoundPlayer2").GetComponent<AudioSource>();
 
             hitBox = GetComponent<HitBox>();
 

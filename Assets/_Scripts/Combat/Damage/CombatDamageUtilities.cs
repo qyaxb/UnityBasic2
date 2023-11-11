@@ -10,14 +10,20 @@ namespace Bardent.Utilities
      *
      * For example: The Damage functions are called by both DamageOnHitBoxAction and DamageOnBlock weapon components.
      */
-    public static class CombatDamageUtilities
-    {
+
+    public static class CombatDamageUtilities { 
+
+
+       
         public static bool TryDamage(GameObject gameObject, DamageData damageData, out IDamageable damageable)
         {
+            
+
             // TryGetComponentInChildren is a custom GameObject extension method.
             if (gameObject.TryGetComponentInChildren(out damageable))
-            {
+            {   
                 damageable.Damage(damageData);
+                
                 return true;
             }
 

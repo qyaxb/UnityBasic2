@@ -14,6 +14,7 @@ namespace Bardent.Weapons.Components
 
         private Collider2D[] detected;
 
+        
         private void HandleAttackAction()
         {
             offset.Set(
@@ -22,16 +23,20 @@ namespace Bardent.Weapons.Components
             );
 
             detected = Physics2D.OverlapBoxAll(offset, currentAttackData.HitBox.size, 0.2f, data.DetectableLayers);
-
+            
             if (detected.Length == 0)
                 return;
-
+           
             OnDetectedCollider2D?.Invoke(detected);
+
+           
         }
 
         protected override void Start()
         {
             base.Start();
+
+           
 
             movement = new CoreComp<CoreSystem.Movement>(Core);
             

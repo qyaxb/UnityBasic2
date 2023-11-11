@@ -34,8 +34,8 @@ namespace Bardent.Weapons.Components
                 return;
             }
 
-            baseAudioSource.clip = currentSoundPhase[currentAudioSourceIndex];
-            baseAudioSource.Play();
+            //baseAudioSource.clip = currentSoundPhase[currentAudioSourceIndex];
+            baseAudioSource.PlayOneShot(currentSoundPhase[currentAudioSourceIndex]);
             currentAudioSourceIndex++;
         }
        

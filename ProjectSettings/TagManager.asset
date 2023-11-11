@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - ParticleContainer
+  - SoundPlayer
+  - SoundPlayer2
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - SoundPlayer
   - 
   - Ground
   - Damageable
